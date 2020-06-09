@@ -1,4 +1,5 @@
 "use strict";
+// TypeScriptの型とは？
 var sum = function (a, b) {
     return a * b;
 };
