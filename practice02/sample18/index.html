@@ -15,17 +15,28 @@
         <div class="frame__inner">
             <!-- ここに、JavaScriptを記述します -->
             <script>
-                // 消費税を計算する関数
-                const getTax = (price, tax=10) => {
-                    return Math.round(price * (tax / 100));
+                // // 消費税を計算する関数
+                // const getTax = (price, tax=10) => {
+                //     let x = 'abc';
+                //     alert(x);
+
+                //     return Math.round(price * (tax / 100));
+                // }
+
+                // // 古い関数の宣言の仕方
+                // // var getTax = function() {}
+                // // function getTax() {}
+
+                // let tax = getTax(1980);
+                // document.write(tax);
+
+                // let Private変数
+                // var Global変数
+
+                for (var i=0; i<10; i++) {
+                    document.write(i);
                 }
-
-                // 古い関数の宣言の仕方
-                // var getTax = function() {}
-                // function getTax() {}
-
-                let tax = getTax(1980);
-                document.write(tax);
+                alert(i);
             </script>
         </div>
     </div>
